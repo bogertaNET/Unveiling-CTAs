@@ -1,0 +1,338 @@
+[
+  {
+    "name": "BERT_4",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 32,
+    "val_acc": 0.9243,
+    "val_f1": 0.9241,
+    "cv_metrics": {
+      "avg_val_acc": 0.919716454041245,
+      "std_val_acc": 0.01414491589350027,
+      "avg_val_f1": 0.9195708133612601,
+      "std_val_f1": 0.014213397227763847
+    },
+    "test_metrics": {
+      "test_loss": 0.2577034831047058,
+      "test_accuracy": 0.912932138284251,
+      "test_f1": 0.9126400481491379,
+      "test_runtime": 5.1969,
+      "test_samples_per_second": 150.282,
+      "test_steps_per_second": 4.811
+    }
+  },
+  {
+    "name": "BERT_10",
+    "num_train_epochs": 4,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.01,
+    "batch_size": 16,
+    "val_acc": 0.9042,
+    "val_f1": 0.9018,
+    "cv_metrics": {
+      "avg_val_acc": 0.8811650356829434,
+      "std_val_acc": 0.016781028663846925,
+      "avg_val_f1": 0.8763780065777473,
+      "std_val_f1": 0.017578827451265946
+    },
+    "test_metrics": {
+      "test_loss": 0.3772970139980316,
+      "test_accuracy": 0.8824884792626728,
+      "test_f1": 0.8802071733579795,
+      "test_runtime": 5.7544,
+      "test_samples_per_second": 150.841,
+      "test_steps_per_second": 9.558
+    }
+  },
+  {
+    "name": "BERT_34",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "val_acc": 0.8602,
+    "val_f1": 0.8456,
+    "cv_metrics": {
+      "avg_val_acc": 0.8501794225977685,
+      "std_val_acc": 0.01070364652411047,
+      "avg_val_f1": 0.8318703133867495,
+      "std_val_f1": 0.01190744197647048
+    },
+    "test_metrics": {
+      "test_loss": 0.5228322148323059,
+      "test_accuracy": 0.8696558915537018,
+      "test_f1": 0.8569940588686401,
+      "test_runtime": 6.2584,
+      "test_samples_per_second": 153.235,
+      "test_steps_per_second": 9.587
+    }
+  },
+  {
+    "name": "DarkBERT_4",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "val_acc": 0.9307,
+    "val_f1": 0.9303,
+    "cv_metrics": {
+      "avg_val_acc": 0.9179064992901138,
+      "std_val_acc": 0.01432401302537901,
+      "avg_val_f1": 0.9177935165734017,
+      "std_val_f1": 0.01433541134682815
+    },
+    "test_metrics": {
+      "test_loss": 0.3032914400100708,
+      "test_accuracy": 0.9167733674775929,
+      "test_f1": 0.9165769676333057,
+      "test_runtime": 4.8694,
+      "test_samples_per_second": 160.39,
+      "test_steps_per_second": 10.063
+    }
+  },
+  {
+    "name": "DarkBERT_10",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "val_acc": 0.8881,
+    "val_f1": 0.886,
+    "cv_metrics": {
+      "avg_val_acc": 0.8994742768201613,
+      "std_val_acc": 0.01539155160236245,
+      "avg_val_f1": 0.8975806587532089,
+      "std_val_f1": 0.015056070280645803
+    },
+    "test_metrics": {
+      "test_loss": 0.3631477952003479,
+      "test_accuracy": 0.8986175115207373,
+      "test_f1": 0.8975760252398216,
+      "test_runtime": 5.5813,
+      "test_samples_per_second": 155.518,
+      "test_steps_per_second": 9.854
+    }
+  },
+  {
+    "name": "DarkBERT_34",
+    "num_train_epochs": 6,
+    "learning_rate": 2e-5,
+    "weight_decay": 0.01,
+    "batch_size": 16,
+    "val_acc": 0.8143,
+    "val_f1": 0.7914,
+    "cv_metrics": {
+      "avg_val_acc": 0.8096891588126963,
+      "std_val_acc": 0.018975900549543987,
+      "avg_val_f1": 0.7834746744263207,
+      "std_val_f1": 0.02072998016764898
+    },
+    "test_metrics": {
+      "test_loss": 0.6655529141426086,
+      "test_accuracy": 0.8237747653806048,
+      "test_f1": 0.7998997996682222,
+      "test_runtime": 5.9168,
+      "test_samples_per_second": 162.08,
+      "test_steps_per_second": 10.141
+    }
+  },
+  {
+    "name": "RoBERTa_4",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.01,
+    "batch_size": 32,
+    "val_acc": 0.9256,
+    "val_f1": 0.9253,
+    "cv_metrics": {
+      "avg_val_acc": 0.915191567163417,
+      "std_val_acc": 0.014521532036395944,
+      "avg_val_f1": 0.9147823469395059,
+      "std_val_f1": 0.014405589491514948
+    },
+    "test_metrics": {
+      "test_loss": 0.2562384009361267,
+      "test_accuracy": 0.9180537772087067,
+      "test_f1": 0.917805310727617,
+      "test_runtime": 5.0558,
+      "test_samples_per_second": 154.476,
+      "test_steps_per_second": 4.945
+    }
+  },
+  {
+    "name": "RoBERTa_10",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "val_acc": 0.8731,
+    "val_f1": 0.8713,
+    "cv_metrics": {
+      "avg_val_acc": 0.8964263242428758,
+      "std_val_acc": 0.015314084946318082,
+      "avg_val_f1": 0.8943669235223878,
+      "std_val_f1": 0.016057633061978466
+    },
+    "test_metrics": {
+      "test_loss": 0.34997671842575073,
+      "test_accuracy": 0.913594470046083,
+      "test_f1": 0.9127860938840763,
+      "test_runtime": 5.6048,
+      "test_samples_per_second": 154.867,
+      "test_steps_per_second": 9.813
+    }
+  },
+  {
+    "name": "RoBERTa_34",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "val_acc": 0.806,
+    "val_f1": 0.7818,
+    "cv_metrics": {
+      "avg_val_acc": 0.8264384275809771,
+      "std_val_acc": 0.018850045495111597,
+      "avg_val_f1": 0.8049838762446025,
+      "std_val_f1": 0.019946332418907756
+    },
+    "test_metrics": {
+      "test_loss": 0.5396367907524109,
+      "test_accuracy": 0.8613138686131386,
+      "test_f1": 0.8487380157770902,
+      "test_runtime": 5.9322,
+      "test_samples_per_second": 161.661,
+      "test_steps_per_second": 10.114
+    }
+  },
+  {
+    "name": "SecureBERT_4",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 32,
+    "val_acc": 0.9269,
+    "val_f1": 0.9268,
+    "cv_metrics": {
+      "avg_val_acc": 0.9133841659601851,
+      "std_val_acc": 0.014888729346042212,
+      "avg_val_f1": 0.9132223105394267,
+      "std_val_f1": 0.01516503076326969
+    },
+    "test_metrics": {
+      "test_loss": 0.2554011344909668,
+      "test_accuracy": 0.9206145966709347,
+      "test_f1": 0.9204730499597293,
+      "test_runtime": 5.0306,
+      "test_samples_per_second": 155.251,
+      "test_steps_per_second": 4.97
+    }
+  },
+  {
+    "name": "SecureBERT_10",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "val_acc": 0.8892,
+    "val_f1": 0.888,
+    "cv_metrics": {
+      "avg_val_acc": 0.9000819631414236,
+      "std_val_acc": 0.009896044810900808,
+      "avg_val_f1": 0.8990375024975995,
+      "std_val_f1": 0.01009001251353006
+    },
+    "test_metrics": {
+      "test_loss": 0.31929367780685425,
+      "test_accuracy": 0.9228110599078341,
+      "test_f1": 0.9220788071640372,
+      "test_runtime": 5.5933,
+      "test_samples_per_second": 155.185,
+      "test_steps_per_second": 9.833
+    }
+  },
+  {
+    "name": "SecureBERT_34",
+    "num_train_epochs": 6,
+    "learning_rate": 3e-5,
+    "weight_decay": 0.01,
+    "batch_size": 16,
+    "val_acc": 0.7987,
+    "val_f1": 0.7739,
+    "cv_metrics": {
+      "avg_val_acc": 0.8071075046040516,
+      "std_val_acc": 0.024680036993389214,
+      "avg_val_f1": 0.7799020794691702,
+      "std_val_f1": 0.02860173954911654
+    },
+    "test_metrics": {
+      "test_loss": 0.6829612255096436,
+      "test_accuracy": 0.8206465067778936,
+      "test_f1": 0.797250866743233,
+      "test_runtime": 5.9096,
+      "test_samples_per_second": 162.278,
+      "test_steps_per_second": 10.153
+    }
+  },
+  {
+    "name": "Hybrid_4",
+    "dropout": 0.1,
+    "epochs": 100,
+    "hidden_size": 128,
+    "kernel_size": 3,
+    "lr": 0.002,
+    "num_filters": 128,
+    "num_heads": 4,
+    "num_layers": 4,
+    "val_acc": 0.9628,
+    "val_f1": 0.9626,
+    "cv_metrics": {
+      "avg_val_acc": 0.9418832926468035,
+      "std_val_acc": 0.008799658910207373,
+      "avg_val_f1": 0.9416249233666587,
+      "std_val_f1": 0.009064070424388929
+    },
+    "test_metrics": { "accuracy": 0.9513444302176697, "f1": 0.951108127058042 }
+  },
+  {
+    "name": "Hybrid_10",
+    "dropout": 0.1,
+    "epochs": 100,
+    "hidden_size": 128,
+    "kernel_size": 5,
+    "lr": 0.02,
+    "num_filters": 128,
+    "num_heads": 16,
+    "num_layers": 2,
+    "val_acc": 0.9365,
+    "val_f1": 0.935,
+    "cv_metrics": {
+      "avg_val_acc": 0.9161541900551388,
+      "std_val_acc": 0.012953587414213541,
+      "avg_val_f1": 0.9157785059986198,
+      "std_val_f1": 0.012941079803118498
+    },
+    "test_metrics": { "accuracy": 0.9377880184331797, "f1": 0.9360699634759699 }
+  },
+  {
+    "name": "Hybrid_34",
+    "dropout": 0.1,
+    "epochs": 150,
+    "hidden_size": 128,
+    "kernel_size": 5,
+    "lr": 0.02,
+    "num_filters": 128,
+    "num_heads": 16,
+    "num_layers": 3,
+    "val_acc": 0.9103,
+    "val_f1": 0.9074,
+    "cv_metrics": {
+      "avg_val_acc": 0.885514502762431,
+      "std_val_acc": 0.011833148537679208,
+      "avg_val_f1": 0.8814993317825353,
+      "std_val_f1": 0.013187631193488982
+    },
+    "test_metrics": { "accuracy": 0.8925964546402503, "f1": 0.8895372776020927 }
+  }
+]
