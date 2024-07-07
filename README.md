@@ -44,3 +44,14 @@ If you have any questions or need further clarification, feel free to reach out 
 - Emirhan Böge: [emirhanboge@sabanciuniv.edu](mailto:emirhanboge@sabanciuniv.edu)
 - M. Bilgehan Ertan: [m.b.ertan@student.vu.nl](mailto:m.b.ertan@student.vu.nl)
 
+@article{10.1145/3676284,
+author = {B\"{o}ge, Emirhan and Ertan, Murat Bilgehan and Alptekin, Halit and \c{C}etin, Or\c{c}un},
+title = {Unveiling Cyber Threat Actors: A Hybrid Deep Learning Approach for Behavior-based Attribution},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3676284},
+doi = {10.1145/3676284},
+journal = {Digital Threats},
+}
+
