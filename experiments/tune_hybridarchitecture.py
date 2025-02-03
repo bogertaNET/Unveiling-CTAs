@@ -116,7 +116,7 @@ def load_dataset(filepath, label_count):
 
 
 def tune_hyperparameters(label_count):
-    df = load_dataset("../data/data_timestamped_all.parquet", label_count)
+    df = load_dataset("../data/data_timestamped.parquet", label_count)
 
     now = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
     relative_path = os.path.join(

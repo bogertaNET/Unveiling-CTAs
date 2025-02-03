@@ -108,7 +108,7 @@ def create_datasets(df, label_count):
 
 
 if __name__ == "__main__":
-    df = load_dataset("../data/data_timestamped_all.parquet")
+    df = load_dataset("../data/data_timestamped.parquet")
     df_1000 = load_highest_n_sequence_actors(df, 1000)
     df_50 = load_highest_n_sequence_actors(df, 50)
     df_10 = load_highest_n_sequence_actors(df, 10)
